@@ -12,6 +12,50 @@ app.get('/req', (req, res) => {
     res.send('Yo!')
 })
 
+
+//
+//     DESAFIOS
+// =====================
+
+// 1 - /meunome
+app.get("/meunome", (req, res) => {
+  res.send("Meu nome é Clara Beatriz dos Santos Bernardes");
+});
+
+// 2 - /tico
+app.get("/tico", (req, res) => {
+  res.send("teco");
+});
+
+// 3 - /pokemons
+app.get("/pokemons", (req, res) => {
+  const pokemonsAsh = [
+    "Pikachu",
+    "Caterpie",
+    "Pidgeotto",
+    "Bulbasaur",
+    "Charmander",
+    "Squirtle",
+    "Krabby",
+    "Primeape",
+    "Muk",
+    "Tauros"
+  ];
+  res.json(pokemonsAsh);
+});
+
+// 4 - /series (POST)
+app.post("/series", (req, res) => {
+  const series = [
+    "Stranger Things",
+    "La Casa de Papel",
+    "The Witcher"
+  ];
+  res.json(series);
+});
+
+
+// NÃO MEXI NO SEU CÓDIGO ORIGINAL 🠗
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 
