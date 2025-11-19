@@ -26,7 +26,7 @@ app.get("/tico", (req, res) => {
 });
 
 // 3 - /pokemons
-app.get("/okemons", (req, res) => {
+app.get("/pokemons", (req, res) => {
   const pokemonsAsh = [
     "Pikachu",
     "Caterpie",
