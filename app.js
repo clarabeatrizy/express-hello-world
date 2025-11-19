@@ -13,9 +13,7 @@ app.get('/req', (req, res) => {
 })
 
 
-//
-//     DESAFIOS
-// =====================
+
 
 // 1 - /meunome
 app.get("/meunome", (req, res) => {
