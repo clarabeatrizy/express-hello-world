@@ -21,11 +21,12 @@ app.get("/meunome", (req, res) => {
 });
 
 // 2 - /tico
+app.get("/tico", (req, res) => {
   res.send("teco");
 });
 
 // 3 - /pokemons
-app.get("/pokemons", (req, res) => {
+app.get("/okemons", (req, res) => {
   const pokemonsAsh = [
     "Pikachu",
     "Caterpie",
