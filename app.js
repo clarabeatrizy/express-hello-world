@@ -21,7 +21,6 @@ app.get("/meunome", (req, res) => {
 });
 
 // 2 - /tico
-app.get("/tico", (req, res) => {
   res.send("teco");
 });
 
